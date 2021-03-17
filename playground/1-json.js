@@ -27,3 +27,8 @@ jsonData.age = 50;
 
 fs.writeFileSync('1-json.json', JSON.stringify(jsonData));
 
+console.log(bookJSON);
+debugger;
+const parseData = JSON.parse(bookJSON);
+
+console.log(parseData.author);
